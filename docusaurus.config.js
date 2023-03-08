@@ -21,15 +21,15 @@ const config = {
   organizationName: 'switch-bls', // Usually your GitHub org/user name.
   projectName: 'avh-video-tool-documentation', // Usually your repo name.
 
-  onBrokenLinks: 'throw',
+  onBrokenLinks: 'warn',
   onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: 'en',
-    locales: ['en'],
+    defaultLocale: 'fr',
+    locales: ['fr'],
   },
 
   presets: [
@@ -42,14 +42,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'http://192.168.1.35:8080/home/docs/videotools-web-app-docs',
+            'https://github.com/switch-bls/avh-video-tool-documentation',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'http://192.168.1.35:8080/home/docs/videotools-web-app-docs',
+            'https://github.com/switch-bls/avh-video-tool-documentation',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
